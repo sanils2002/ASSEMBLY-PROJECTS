@@ -2,7 +2,7 @@ MVI A,#data
 SIM
 EI
 JMP NEXT
-DI <NEXT>
+NEXT: DI
 MVI A,#C0H
 SIM
 EI
