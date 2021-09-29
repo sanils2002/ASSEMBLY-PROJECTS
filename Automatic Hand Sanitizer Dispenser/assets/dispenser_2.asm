@@ -1,0 +1,12 @@
+LXI SP,0000H
+MVI A
+SIM
+EI
+HLT
+
+<Sub-Routine>
+
+MVI A,CCH
+SIM
+EI
+RET
