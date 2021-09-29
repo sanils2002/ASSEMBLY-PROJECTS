@@ -1,0 +1,9 @@
+MVI A,#data
+SIM
+EI
+JMP NEXT
+NEXT: DI
+MVI A,#C0H
+SIM
+EI
+RET
